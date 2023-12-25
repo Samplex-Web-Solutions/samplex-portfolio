@@ -293,6 +293,17 @@
 }
 
 @media screen and (max-width: 781px) {
+
+  .testimonial-header span::before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 7px;
+    top: 36px;
+    left: 10px;
+    background: rgb(240, 191, 31);
+    border-radius: 8px;
+}
   nav .logo {
     width: 100%;
     font-size: 30px;
