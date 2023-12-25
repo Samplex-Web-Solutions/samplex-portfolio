@@ -311,7 +311,7 @@
  
   main .hero-section h1 {
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -322,7 +322,7 @@
     content: "";
     background: rgb(240, 191, 31);
     position: absolute;
-    width: 8.6rem;
+    width: 8.5rem;
     height: 7px;
     top: 2.06rem;
   }
