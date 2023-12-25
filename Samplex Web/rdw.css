@@ -157,6 +157,7 @@
     font-size: 1rem;
   }
   .testimonial-header span::before {
+    display:none;
     content: "";
     position: absolute;
     width: 12rem;
@@ -314,6 +315,7 @@
   .testimonial-header span::before {
     content: "";
     position: absolute;
+    display:none;
     width: 12rem;
     height: 7px;
     top: 36px;
@@ -388,6 +390,7 @@
   }
   .testimonial-header span::before {
     content: "";
+    display:none;
     position: absolute;
     width: 12rem;
     height: 7px;
@@ -504,6 +507,7 @@ main .hero-section span.btn {
   .testimonial-header span::before {
     content: "";
     position: absolute;
+    display:none;
     width: 12rem;
     height: 7px;
     top: 36px;
