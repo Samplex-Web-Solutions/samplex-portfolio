@@ -48,7 +48,9 @@
     width: 100%;
     font-size: 30px;
 }
-
+.mobile{
+  display:inline-flex;
+}
 .mobile i{
   font-size: 30px;
   color: rgb(27, 27, 84);
@@ -304,6 +306,10 @@ body{
   outline: 0;
   border: none;
 }
+
+  .mobile{
+    display:inline-flex;
+  }
  
   main .hero-section h1 {
     width: 100%;
@@ -344,9 +350,6 @@ body{
     margin-top: 3rem;
   }
   
-body{
-  overflow: hidden;
-}
 .mobile{
   display: inline-flex;
 }
@@ -368,10 +371,7 @@ body{
   outline: 0;
   border: none;
 }
-
-body{
-  overflow: hidden;
-}
+  
 .mobile{
   display: inline-flex;
 }
