@@ -283,6 +283,13 @@
     color: #fff;
     padding-top: 5px;
   }
+  
+body{
+  overflow: hidden;
+}
+.mobile{
+  display: inline-flex;
+}
 }
 
 @media screen and (max-width: 781px) {
@@ -336,6 +343,13 @@
     font-size: 2em;
     margin-top: 3rem;
   }
+  
+body{
+  overflow: hidden;
+}
+.mobile{
+  display: inline-flex;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -355,9 +369,15 @@
   border: none;
 }
 
+body{
+  overflow: hidden;
+}
+.mobile{
+  display: inline-flex;
+}
   main .hero-section h1 {
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.8rem;
   flex-wrap: wrap;
   flex-grow: 1;
@@ -367,7 +387,7 @@ main .hero-section h1 span::before {
   content: "";
   background: rgb(240, 191, 31);
   position: absolute;
-  width: 5rem;
+  width: 5.5rem;
   height: 4px;
   top: 1.4rem;
 }
